@@ -184,17 +184,43 @@ nav {
 
 .addform-menu {
   list-style-type: none;
+  margin: 0;
   width: 250px;
   background-color: #222831;
   position: fixed;
   height: 100%;
   overflow: auto;
-}
-
-.addform-menu p  {
   color: #FFFFFF;
   text-align: center;
-  margin: 15px;
+}
+
+.search-af {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+.text-menu {
+  margin-top: 30xp;
+}
+.btn-ad {
+  width: 50px;
+  height: 30px;
+  border-radius: 10px;
+  background: #FF5722;
+  color: #FFFFFF;
+  margin-left: 10px;
+  margin-top: 15px;
+  margin-bottom: 20px;
+}
+
+.addform-menu input {
+  align-items: center;
+}
+.addform-menu p  {
+  text-align: center;
+  margin-top: 15px ;
 }
 
 .addform-menu img {
@@ -205,11 +231,215 @@ nav {
 .addform-dt {
   margin-left:260px;
   height:1000px;
-  margin-top: 15px; 
+  margin-top: 0px; 
+  padding: 50px;
 }
 
 .header-addform {
-  
   font-size: 25px;
   font-weight: bold;
+  margin-top: 20px;
+}
+
+.input-ad {
+  background-color: #E0E0E0;
+  width: auto;
+  height: auto;
+  border-radius: 20px;
+  padding: 50px;
+  border: #222831 solid 1px;
+  margin-top: 30px;
+}
+
+.name-customer {
+  width: 400px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.label-numberphone{
+  margin-left: 30px;
+}
+
+.numberphone {
+  width: 400px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.address {
+  margin-top: 20px;
+  width: 1200px;
+  height: 100px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.idlinecustomer {
+  margin-top: 20px;
+  width: 400px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+.slide {
+  text-align: center;
+  margin-top: 30px;
+}
+.dot {
+    margin-top: 20px;
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease
+}
+.btn-next {
+  width: 160px;
+  height: 60px;
+  background-color: #FF5722;
+  color: #FFFFFF;
+  font-weight: bold;
+  font-size: 18px;
+  border-radius: 10px;
+  margin-top: 20px;
+  
+}
+
+/* repair */
+.label-date{
+  margin-left: 900px;
+}
+
+.date{
+  width: 400px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+  margin-bottom: 29px;
+}
+.label-Car-registration {
+
+}
+
+.Car-registration{
+  width: 400px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.label-province{
+margin-left: 30px;
+}
+
+.province{
+  margin-top: 20px;
+  width: 400px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.label-model{
+
+}
+
+.model{
+  margin-top: 20px;
+  width: 400px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.label-color{
+  margin-left: 30px;
+}
+
+.color{
+  margin-top: 20px;
+  width: 400px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.label-brand{
+  margin-left: 30px;
+}
+
+.brand{
+  margin-top: 20px;
+  width: 400px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.label-Machine-number{
+  margin-left: 30px;
+}
+
+.Machine-number{
+  margin-top: 20px;
+  width: 400px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.label-chassis-number{
+  margin-left: 30px;
+}
+
+.chassis-number{
+  margin-top: 20px;
+  width: 400px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.label-status{
+
+}
+
+.select-status{
+  margin-top: 20px;
+  width: 400px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.label-Repairman{
+  margin-left: 30px;
+}
+
+.Repairman{
+  margin-top: 20px;
+  width: 400px;
+  height: 50px;
+  margin-left: 10px;
+  border-radius: 5px;
+}
+
+.label-details{
+ 
+}
+
+.details{
+  margin-top: 20px;
+  width: 1200px;
+  height: 100px;
+  margin-left: 10px;
+  border-radius: 5px;
 }

@@ -1,30 +1,31 @@
 import React from 'react'
 import logo from '../images/logochangdum.png'
+import { Sidebar } from './sidebar'
 export const Addform = () => {
   return (
     <div>
-        <div class="addform-menu">
-          <ul>
-            <img src={logo} alt="logochangdum" class="image-login"/>  
-            <p>รับข้อมูล</p>
-            <p>รายการซ่อม</p>
-          </ul>
-        </div>
-
+       <Sidebar></Sidebar>
         <div class = "addform-dt">
-          <a class = "header-addform">รายการซ่อม</a>
-          <h3>Try to scroll this area, and see how the sidenav sticks to the page</h3>
-          <p>Notice that this div element has a left margin of 25%. This is because the side navigation is set to 25% width. If you remove the margin, the sidenav will overlay/sit on top of this div.</p>
-          <p>Also notice that we have set overflow:auto to sidenav. This will add a scrollbar when the sidenav is too long (for example if it has over 50 links inside of it).</p>
-          <p>Some text..</p>
-          <p>Some text..</p>
-          <p>Some text..</p>
-          <p>Some text..</p>
-          <p>Some text..</p>
-          <p>Some text..</p>
-          <p>Some text..</p>
+            <div class = "addform-mg">
+              <a class = "header-addform">ข้อมูลลูกค้า</a>
+                <div class = "input-ad">
+                  <label for="Username" class = "label-namecustomer">ชื่อลูกค้า  </label>
+                  <input type = "text"  class = "name-customer" ></input>
+                  <label for="numberphone" class = "label-numberphone">เบอร์โทร </label>
+                  <input type = "tel" class = "numberphone" maxlength = "10" ></input> <br></br>
+                  <label for="address" class = "label-address" >ที่อยู่ </label>
+                  <input type = "text" class = "address"></input><br></br>
+                  <label for="idline" class = "label-idlinecustomer">ID Line  </label>
+                  <input type = "text"  class = "idlinecustomer" ></input>
+                </div>
+                <div class = "slide">
+                  <span class="dot" onclick="currentSlide(1)"></span> 
+                  <span class="dot" onclick="currentSlide(2)"></span> 
+                  <span class="dot" onclick="currentSlide(3)"></span> 
+                </div>
+                <button class="btn-next">ถัดไป</button>
+            </div>
         </div>
-
     </div>
   )
 }
